@@ -1,0 +1,194 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh; 
+    background-color: #ffff;
+    background-size: cover ; 
+    background-position: center; 
+    justify-content: right;
+    align-items: center;
+    display: flex;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #2E8B57;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+ }
+ .wrapper {
+    position: relative; 
+    border: none;
+    border-radius: 50px; 
+    align-items: center;
+    width: 1400px;
+    height: 1300px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin-left: 500px;
+}
+.logo img{
+    user-select: none;
+    width: 100px;
+    height: auto;
+}
+.address{
+    font-size: 1.5em;
+    color: #fff;
+    user-select: none;
+    font-style: italic;
+    font-weight: bold;
+    margin-left:-1400px;
+    
+}
+.sub{
+    font-size: 1em;
+    color: #fff;
+    user-select: none;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    margin-left:-100px;
+    
+}
+
+.navigation .btnLogin-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin: 40px;
+    transition: .5s;
+
+}
+.navigation .btnLogin-popup:hover{
+    background: #fff;
+    color: #2E8B57;
+}
+
+.form-box h2{
+    font-size: 65px;
+    color: #2E8B57;
+    user-select: none;
+    font-weight: bolder;
+    margin-top: 100px;
+}
+.form-box h3{
+    font-size: 30px;
+    color: #000;
+    user-select: none;
+    font-weight: lighter;
+    margin-left: 150px;
+    margin-top: -10px;
+ 
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+input[type="email"],
+input[type="text"],
+select,
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #161616;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+button {
+    background-color: #2E8B57;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    grid-column: span 2;
+    margin-top: 40px;
+}
+
+button:hover {
+    background-color: #90EE90;
+    color: #0e2c1b;
+}
+.country-codes option {
+    font-size: 14px;
+    padding: 5px;
+    background-color: #2E8B57;
+    color: #fff;
+  }
+.country-codes option:checked {
+    background-color: #fff;
+    color: black;
+  }
+  .password-icon1 {
+    filter: grayscale(100%);
+    position: absolute;
+    scale: 150%;
+    margin-left: 20px;
+    margin-top: 300px; /* Adjust this value to position the icon as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 2;
+  }
+  .password-icon2 {
+    filter: grayscale(100%);
+    scale: 150%;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 430px; /* Adjust this value to position the icon as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 2;
+  }
+  /* Adjust the input padding to make space for the icon */
+  input[type="password"] {
+    padding-right: 30px; /* Adjust this value based on the icon's width and position */
+  }
+  .logo1 img{
+    scale: 850%;
+    user-select: none;
+    width: 130px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 150px;
+    opacity: 50%;
+}
+.form-box h4 {
+    padding: 10px;
+    margin: 10px 0;
+    margin-left: 200px;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+   
+}
